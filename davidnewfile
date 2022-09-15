@@ -1,9 +1,20 @@
-git clone
-cd 
-vim 
-touch davidnewfile
-vim davidnewfile
-git add * 
-git commit -m "david new file"
-git branch
-got push
+(base) davidsu@MacBook-Pro-147 ~ %git clone https://github.com/alagiazero/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+(base) davidsu@MacBook-Pro-147 ~ % cd GitHub-Collaboration-Practice
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % vim Group-Names.md
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % touch davidnewfile 
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % vim davidnewfile
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % git add *
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % git commit -m davidmain
+(base) davidsu@MacBook-Pro-147 GitHub-Collaboration-Practice % git push --set-upstream origin david-branch
