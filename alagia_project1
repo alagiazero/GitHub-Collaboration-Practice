@@ -1,0 +1,7 @@
+(base) alagiacirolia@Kaizens-MacBook-Pro Documents % git clone https://github.com/alagiazero/GitHub-Collaboration-Practice.git
+(base) alagiacirolia@Kaizens-MacBook-Pro Documents % cd GitHub-Collaboration-Practice
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git checkout -b alagia_branch
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % vim Group-Names.md
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % touch alagia_project1
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % vim alagia_project1
+
