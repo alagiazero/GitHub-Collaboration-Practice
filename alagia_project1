@@ -4,4 +4,9 @@
 (base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % vim Group-Names.md
 (base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % touch alagia_project1
 (base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % vim alagia_project1
-
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git add *
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git commit -m "Alagia made changes to group names and added alagia_project1 file with terminal code"
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git push --set-upstream origin alagia_branch
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git fetch
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git checkout main
+(base) alagiacirolia@Kaizens-MacBook-Pro GitHub-Collaboration-Practice % git pull
