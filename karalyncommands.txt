@@ -1,0 +1,32 @@
+Karalyn commands - Project 1 - Part 3 Collaboration
+Last login: Tue Sep 13 16:36:51 on ttys000
+(base) penny@Bernard ~ % git version
+git version 2.32.1 (Apple Git-133)
+
+(base) penny@Bernard ~ % cd Documents/Fall2022
+
+(base) penny@Bernard Fall2022 % git clone git@github.com:alagiazero/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+
+(base) penny@Bernard Fall2022 % cd GitHub-Collaboration-Practice 
+
+(base) penny@Bernard GitHub-Collaboration-Practice % git switch -c karalynbranch
+Switched to a new branch 'karalynbranch'
+
+(base) penny@Bernard GitHub-Collaboration-Practice % vim Group-Names.md 
+
+(base) penny@Bernard GitHub-Collaboration-Practice % touch karalyncommands.txt
+
+(base) penny@Bernard GitHub-Collaboration-Practice % vim karalyncommands.txt
+
+(base) penny@Bernard GitHub-Collaboration-Practice % git add *
+
+(base) penny@Bernard GitHub-Collaboration-Practice % git commit -m "add karalyn updates to group name and karalyn text file"
+
+(base) penny@Bernard GitHub-Collaboration-Practice % git push -u origin karalynbranch
+
