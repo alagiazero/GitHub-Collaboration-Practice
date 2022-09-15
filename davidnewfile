@@ -1,0 +1,9 @@
+git clone
+cd 
+vim 
+touch davidnewfile
+vim davidnewfile
+git add * 
+git commit -m "david new file"
+git branch
+got push
